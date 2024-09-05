@@ -12,5 +12,26 @@
     "desc": "Jand Karno em perolas",
     "value": "2200.00",
     "image": "../../src/assets/img2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Colar",
+    "desc": "Colar DO Rock",
+    "value": "2200.00",
+    "image": "../../src/assets/img3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Colar",
+    "desc": "Colar DO Rock muito do ROCK",
+    "value": "2200.00",
+    "image": "../../src/assets/img4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Colar do HIP HIP",
+    "desc": "Colar DO HIP HOP muito do HIP HOP",
+    "value": "2200.00",
+    "image": "../../src/assets/img5.jpg"
   }
 ]
