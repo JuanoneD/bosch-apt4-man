@@ -4,6 +4,7 @@ import { Card } from './components/Card'
 import produtos from './constants/produtos.json'
 import { api } from "./api/rmApi"
 import style from './App.module.css'
+import {Maps} from './components/Maps'
 
 function App() {
   const [show, setShow] = useState("")
@@ -26,7 +27,7 @@ function App() {
       }
       console.error(error)
     })
-  }, [page])
+  }, [page,name])
 
   return (
     <>
@@ -74,7 +75,7 @@ function App() {
         <>
       <h2>Mapa</h2>
           <div>
-              mapa aqui
+              <Maps/>
           </div>
          </>
       }
