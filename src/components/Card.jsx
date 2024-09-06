@@ -8,7 +8,7 @@ export const Card = ({name,desc,value,image,key,status}) => {
           <h2>{desc}</h2>
           <p>{value}</p>
           <div className={status?style.greenBall:style.redBall}></div>
-          <img src={image} alt={name} width={150} height={"auto"}/>
+          <img src={image} alt={key} width={150} height={"auto"}/>
       </div>
   )
 }
