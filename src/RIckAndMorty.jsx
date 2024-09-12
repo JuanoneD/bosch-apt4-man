@@ -47,7 +47,7 @@ useEffect(() => {
         <App/>
         {modal !== undefined && <Modal data={data[modal]} close={() => setModal()}/>} 
         <div className={style.wrapPage}>
-        <h2>Rick and Morty API</h2>
+        <h1>Rick and Morty API</h1>
           <div>
              <input type="number" placeholder="1/43" value={page} onChange={(event) => setPage(event.target.value)}/>
           </div>

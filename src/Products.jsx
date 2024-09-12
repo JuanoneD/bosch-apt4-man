@@ -8,7 +8,7 @@ export const Products = () => {
      <>
       <App/>
       <div className={style.wrapPage}>
-          <h2>Showroom de produtos</h2>
+          <h1>Showroom de produtos</h1>
             <div className={style.wrapPageRow}>
             {produtos.map((item) => {
               return(
